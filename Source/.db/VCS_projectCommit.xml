@@ -1,0 +1,86 @@
+<DATA>
+
+	<ROW>
+		<id>c00c3a1e650320096577d6b47bdc1b1bcf9948f3e</id>
+		<project_id>91</project_id>
+		<branch_name>master</branch_name>
+		<parent>0</parent>
+		<time>1446080642</time>
+		<author_id>1</author_id>
+		<summary>Initial full application commit. Only send mail is working (partial).</summary>
+		<description></description>
+		<tags></tags>
+	</ROW>
+
+	<ROW>
+		<id>cf97dd8655da57031bd2b200b5ea790d2ae343959</id>
+		<project_id>91</project_id>
+		<branch_name>master</branch_name>
+		<parent>0</parent>
+		<time>1446120085</time>
+		<author_id>1</author_id>
+		<summary>new message form updated to include a reply-to field for the message and also to generate better notifications.</summary>
+		<description></description>
+		<tags></tags>
+	</ROW>
+
+	<ROW>
+		<id>c7190460d1b5e2bcaf7f46a49806295a58aa5f878</id>
+		<project_id>91</project_id>
+		<branch_name>master</branch_name>
+		<parent>0</parent>
+		<time>1446132090</time>
+		<author_id>1</author_id>
+		<summary>Message creator updated to have multiple recipients and better validation.</summary>
+		<description></description>
+		<tags></tags>
+	</ROW>
+
+	<ROW>
+		<id>cba059e1b0e9944955bcdb973bfd3d22859c91246</id>
+		<project_id>91</project_id>
+		<branch_name>master</branch_name>
+		<parent>0</parent>
+		<time>1446516408</time>
+		<author_id>1</author_id>
+		<summary>Mailbox updated to show message list and include drafts.</summary>
+		<description>Mailbox class created to handle the messages log.</description>
+		<tags></tags>
+	</ROW>
+
+	<ROW>
+		<id>c9b12aa4796e6bd198749679e5203088ba4ce7710</id>
+		<project_id>91</project_id>
+		<branch_name>master</branch_name>
+		<parent>0</parent>
+		<time>1446548882</time>
+		<author_id>1</author_id>
+		<summary>Settings updated to edit the account's signature.</summary>
+		<description>New class for editing the signature created.</description>
+		<tags></tags>
+	</ROW>
+
+	<ROW>
+		<id>ca91dcaf28377393c47e77e02e83950e2090e0441</id>
+		<project_id>91</project_id>
+		<branch_name>master</branch_name>
+		<parent>0</parent>
+		<time>1446553669</time>
+		<author_id>1</author_id>
+		<summary>templateManager create to manage templates for the team. mail creator updated to load templates.</summary>
+		<description></description>
+		<tags></tags>
+	</ROW>
+
+	<ROW>
+		<id>ce46e0000228209fec9d02eebcea6984004795843</id>
+		<project_id>91</project_id>
+		<branch_name>master</branch_name>
+		<parent>0</parent>
+		<time>1446554074</time>
+		<author_id>1</author_id>
+		<summary>Css updates.</summary>
+		<description></description>
+		<tags></tags>
+	</ROW>
+</DATA>

@@ -1,0 +1,209 @@
+<DATA>
+
+	<ROW>
+		<id>app031bc746611b37f1e65fb9dca890356d</id>
+		<project_id>91</project_id>
+		<path>/views/appcenter</path>
+		<name>AppCenterMainView.view</name>
+		<smart>1</smart>
+		<deleted>0</deleted>
+	</ROW>
+
+	<ROW>
+		<id>app20b0932ec2a4d8ab62fcd00808842a93</id>
+		<project_id>91</project_id>
+		<path>/src/APP/Mail/</path>
+		<name>signature.object</name>
+		<smart>1</smart>
+		<deleted>0</deleted>
+	</ROW>
+
+	<ROW>
+		<id>app2ab5c8179ee98459696c2c1082acaf1c</id>
+		<project_id>91</project_id>
+		<path>/views/enterprise/mailbox</path>
+		<name>newMessageForm.view</name>
+		<smart>1</smart>
+		<deleted>0</deleted>
+	</ROW>
+
+	<ROW>
+		<id>app2b9d155ba9684b867c21ab53551a5602</id>
+		<project_id>91</project_id>
+		<path>/src/APP/Mail/</path>
+		<name>templates.object</name>
+		<smart>1</smart>
+		<deleted>0</deleted>
+	</ROW>
+
+	<ROW>
+		<id>app3d9c4b1e422bc8ffbd9bbb60ff7de62c</id>
+		<project_id>91</project_id>
+		<path>/views/enterprise/templates</path>
+		<name>templateList.view</name>
+		<smart>1</smart>
+		<deleted>0</deleted>
+	</ROW>
+
+	<ROW>
+		<id>app46e38ebc4272d12d51191ce1b0b72fb6</id>
+		<project_id>91</project_id>
+		<path>/views/enterprise/templates</path>
+		<name>templateEditor.view</name>
+		<smart>1</smart>
+		<deleted>0</deleted>
+	</ROW>
+
+	<ROW>
+		<id>app48a45b81c167302d79f1c9ec6f2f84ae</id>
+		<project_id>91</project_id>
+		<path>/views/enterprise/templates</path>
+		<name>templateManager.view</name>
+		<smart>1</smart>
+		<deleted>0</deleted>
+	</ROW>
+
+	<ROW>
+		<id>app4dc83c42b1b3a9bf22b08498f3606a5d</id>
+		<project_id>91</project_id>
+		<path>/views/enterprise/settings</path>
+		<name>appSettings.view</name>
+		<smart>1</smart>
+		<deleted>0</deleted>
+	</ROW>
+
+	<ROW>
+		<id>app5de6aaeaf436740434d655f2d924a660</id>
+		<project_id>91</project_id>
+		<path>/views/enterprise/settings</path>
+		<name>signEditor.view</name>
+		<smart>1</smart>
+		<deleted>0</deleted>
+	</ROW>
+
+	<ROW>
+		<id>app65d33f906392d6c65cd040d04c5568fb</id>
+		<project_id>91</project_id>
+		<path>/views/</path>
+		<name>MainView.view</name>
+		<smart>1</smart>
+		<deleted>0</deleted>
+	</ROW>
+
+	<ROW>
+		<id>app72ebcb5dd52a16ddb4c0e2bc7ffcf6d5</id>
+		<project_id>91</project_id>
+		<path>/</path>
+		<name>index.xml</name>
+		<smart>0</smart>
+		<deleted>0</deleted>
+	</ROW>
+
+	<ROW>
+		<id>app7d9c875b5fd9854dcdf89ce5ae340788</id>
+		<project_id>91</project_id>
+		<path>/views/enterprise/mailbox</path>
+		<name>mailList.view</name>
+		<smart>1</smart>
+		<deleted>0</deleted>
+	</ROW>
+
+	<ROW>
+		<id>app918f925c9ba0a3a1ad926b99f9e2095b</id>
+		<project_id>91</project_id>
+		<path>/</path>
+		<name>settings.xml</name>
+		<smart>0</smart>
+		<deleted>0</deleted>
+	</ROW>
+
+	<ROW>
+		<id>app965efef0a63c9763b045e3479ee0b8fa</id>
+		<project_id>91</project_id>
+		<path>/src/APP/Mail/</path>
+		<name>mailbox.object</name>
+		<smart>1</smart>
+		<deleted>0</deleted>
+	</ROW>
+
+	<ROW>
+		<id>app98081357f06bf28c2cbdfdb90782519f</id>
+		<project_id>91</project_id>
+		<path>/views/enterprise/mailbox</path>
+		<name>emptyMessage.view</name>
+		<smart>1</smart>
+		<deleted>0</deleted>
+	</ROW>
+
+	<ROW>
+		<id>appb13cd9dee920c576a318c998c4e8728f</id>
+		<project_id>91</project_id>
+		<path>/</path>
+		<name>views.xml</name>
+		<smart>0</smart>
+		<deleted>0</deleted>
+	</ROW>
+
+	<ROW>
+		<id>appb2fb8c13ef315f89b9a7589882e84abc</id>
+		<project_id>91</project_id>
+		<path>/views/enterprise/mailbox</path>
+		<name>templateSelector.view</name>
+		<smart>1</smart>
+		<deleted>0</deleted>
+	</ROW>
+
+	<ROW>
+		<id>appc639a188ce822a5beef3f885c51e436c</id>
+		<project_id>91</project_id>
+		<path>/views/enterprise/mailbox</path>
+		<name>templateMessage.view</name>
+		<smart>1</smart>
+		<deleted>0</deleted>
+	</ROW>
+
+	<ROW>
+		<id>appcca0c358ed0b08891165b8f6bd4d7c7b</id>
+		<project_id>91</project_id>
+		<path>/views/enterprise</path>
+		<name>AboutView.view</name>
+		<smart>1</smart>
+		<deleted>0</deleted>
+	</ROW>
+
+	<ROW>
+		<id>appdec6341bc811bbcda76aa79922dedde9</id>
+		<project_id>91</project_id>
+		<path>/views/enterprise</path>
+		<name>enterpriseMainView.view</name>
+		<smart>1</smart>
+		<deleted>0</deleted>
+	</ROW>
+
+	<ROW>
+		<id>appe9b9c148d4a5e88e89236060efe6fcc7</id>
+		<project_id>91</project_id>
+		<path>/</path>
+		<name>source.xml</name>
+		<smart>0</smart>
+		<deleted>0</deleted>
+	</ROW>
+
+	<ROW>
+		<id>appeea503fe50a4e4f7a25d19ad470154b8</id>
+		<project_id>91</project_id>
+		<path>/views/enterprise/lists</path>
+		<name>listManager.view</name>
+		<smart>1</smart>
+		<deleted>0</deleted>
+	</ROW>
+
+	<ROW>
+		<id>appf4447e9fbfc218882551ae2aa8e81ac2</id>
+		<project_id>91</project_id>
+		<path>/views/enterprise/mailbox</path>
+		<name>deleteMail.view</name>
+		<smart>1</smart>
+		<deleted>0</deleted>
+	</ROW>
+</DATA>
