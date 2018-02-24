@@ -1,0 +1,29 @@
+.signatureEditor {
+	height: 400px;
+	background: #FFF;
+	border: 1px solid #CCC;
+}
+
+.signatureEditor .objTool {
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	opacity: 0.7;
+	cursor: pointer;
+	background-image:url('%{media}/icons/devIcons.svg');
+	background-repeat:no-repeat;
+	background-size: cover;
+}
+
+.signatureEditor .objTool:hover {
+	opacity: 1.0;
+}
+
+.signatureEditor button.objTool {
+	border : none;
+	background-color: transparent;
+}
+
+.signatureEditor .objTool.save {
+	background-position: 0px 0px;
+}

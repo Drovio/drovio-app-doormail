@@ -1,0 +1,27 @@
+.templateSelectorContainer {
+	& {
+		width: 60%;
+		margin: 30px auto;
+		border: 1px solid #CCC;
+		border-radius: 3px;
+		-webkit-border-radius: 3px;
+		-moz-border-radius: 3px;
+		height: 80%;
+	}
+	.tplItem {
+		padding: 5px 10px;
+		cursor: pointer;
+		border-bottom: 1px solid #345663;
+		color: #345663;
+		transition: all .2s ease-in-out;
+		-webkit-transition: all .2s ease-in-out;
+		-moz-transition: all .2s ease-in-out;
+	}
+	.tplItem:hover {
+		background: #345663;
+		color: #FFF;
+		transition: all .2s ease-in-out;
+		-webkit-transition: all .2s ease-in-out;
+		-moz-transition: all .2s ease-in-out;
+	}
+}

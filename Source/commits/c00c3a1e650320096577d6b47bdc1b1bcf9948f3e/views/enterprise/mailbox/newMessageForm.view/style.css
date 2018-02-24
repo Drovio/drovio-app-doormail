@@ -1,0 +1,186 @@
+.newMessageForm {
+	width: 100%;
+	height: 100%;
+	position: relative;
+	overflow: auto;
+}
+.newMessageForm .frm-controls {
+	height: 30px;
+}
+.newMessageForm .frm-controls .btn-ctrl {
+	float: left;
+	padding: 5px;
+	margin: 0px;
+	height: 32px;
+	background: transparent;
+	border: 1px solid #345663;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	line-height: 20px;
+	font-size: 1em;
+	color: #345663;
+	transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+	cursor: pointer;
+	outline: none;
+}
+
+.newMessageForm .frm-controls .btn-ctrl .ico {
+	float: left;
+	width: 20px;
+	height: 20px;
+	margin-right: 5px;
+	background: url('%{media}/icons/mailIcons.svg') no-repeat;
+	background-size: 40px;
+	background-position: 0px -20px;
+	transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+}
+
+.newMessageForm .frm-controls .btn-ctrl:hover {
+	background: #345663;
+	color: #FFF;
+	transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+}
+
+.newMessageForm .frm-controls .btn-ctrl:hover .ico {
+	background-position-x: -20px;
+	transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+}
+
+.newMessageForm .frm-controls .btn-ctrl > span {
+	line-height: 20px;
+}
+.newMessageForm .frm-controls .btn-ctrl.send {
+	float: right;
+}
+
+.newMessageForm .frm-controls .btn-ctrl.send .ico {
+	float: right;
+	margin: 0px;
+	margin-left: 5px;
+	background-position: 0px 0px;
+}
+
+.newMessageForm .frm-controls .btn-ctrl.send:hover .ico {
+	background-position-x: -20px;
+	transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+}
+
+.newMessageForm .frm-controls h2.hd {
+	text-align: center;
+	font-size: 1.2em;
+	color: #345663;
+	text-align: center;
+	padding: 5px;
+	font-weight: 600;
+}
+.newMessageForm .frm-mail {
+	position: absolute;
+	top: 40px;
+	bottom: 0px;
+	left: 0px;
+	width: 100%;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	background: #FFF;
+	border: 1px solid #CCC;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	overflow: auto;
+}
+.newMessageForm .frm-mail .frow {
+	overflow: hidden;
+	padding: 3px 5px;
+	border-bottom: 1px solid #EEE;
+	line-height: 24px;
+	position: relative;
+	height: 24px;
+}
+
+.newMessageForm .frm-mail .frow .flabel {
+	width: 150px;
+	color: #777;
+	position: absolute;
+	left: 5px;
+	top: 3px;
+	cursor: pointer;
+}
+
+.newMessageForm .frm-mail .frow .mfinput {
+	outline: none;
+	border: none;
+	line-height: 24px;
+	padding: 0px;
+	margin: 0px;
+	padding-left: 150px;
+	display: inline-block;
+	width: 100%;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	line-height: 24px;
+	height: 24px;
+}
+.newMessageForm .frm-mail .farea {
+	position: absolute;
+	top: 93px;
+	bottom: 0px;
+	width: 100%;
+}
+
+.newMessageForm .frm-mail .farea .fbtn-container {
+	width: 80%;
+	margin: 0px auto;
+	margin-top: 80px;
+	overflow: auto;
+}
+
+.newMessageForm .frm-mail .farea .fbtn-container .btn-load {
+	width: 50%;
+	float: left;
+	cursor: pointer;
+	text-align: center;
+	font-size: 1.15em;
+	color: #345663;
+}
+
+.newMessageForm .frm-mail .farea .fbtn-container .btn-load .ico {
+	width: 80px;
+	height: 80px;
+	background: url('%{media}/icons/mailboxNew.svg') no-repeat center;
+	margin: 0 auto;
+	margin-bottom: 10px;
+	background-size: cover;
+	background-position: 0px 0px;
+	opacity: 0.6;
+	transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+}
+
+.newMessageForm .frm-mail .farea .fbtn-container .btn-load.template .ico {
+	background-position: 0px -80px;
+}
+
+.newMessageForm .frm-mail .farea .fbtn-container .btn-load:hover .ico {
+	opacity: 1;
+	transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+}
+}

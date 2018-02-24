@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manual library="APP" package="Mail" namespace="\">
+  <class name="signature" abstract="">
+    <info>
+      <version>0.1</version>
+      <build>1</build>
+      <datecreated>1446548856</datecreated>
+      <daterevised>1446548856</daterevised>
+      <extends/>
+      <implements/>
+      <throws/>
+      <title>Mailbox signature manager</title>
+      <description>Manages the account's signatures for the application.</description>
+      <deprecated/>
+    </info>
+    <constants/>
+    <properties>
+      <scope type="public"/>
+      <scope type="protected"/>
+      <scope type="private"/>
+    </properties>
+    <methods>
+      <scope type="public">
+        <method name="get" returntype="string" static="true">
+          <description>Get the account's signature.</description>
+          <parameters>
+            <parameter name="$resolve" type="boolean" defaultvalue="">
+              <description>Resolve variables in the signature.
+It is TRUE by default.</description>
+            </parameter>
+          </parameters>
+          <returndescription>The account signature.
+If empty, get the default signature.</returndescription>
+          <throws/>
+          <deprecated/>
+        </method>
+        <method name="set" returntype="boolean" static="true">
+          <description>Set the account's mail signature.</description>
+          <parameters>
+            <parameter name="$signature" type="string" defaultvalue="">
+              <description>The signature html.</description>
+            </parameter>
+          </parameters>
+          <returndescription>True on success, false on failure.</returndescription>
+          <throws/>
+          <deprecated/>
+        </method>
+      </scope>
+      <scope type="protected"/>
+      <scope type="private"/>
+    </methods>
+  </class>
+</manual>

@@ -1,0 +1,65 @@
+.mailboxList {
+	& {
+		width: 100%;
+		height: 100%;
+		padding: 10px;
+		box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+	}
+	.message-list {
+		& {
+			display: block;
+			overflow: auto;
+			height: 100%;
+			width: 100%;
+		}
+		h2.hd {
+			font-size: 1.3em;
+			text-align: center;
+			margin: 50px 0px;
+			color: #345663;
+		}
+		.btn-create {
+			& {
+				width: 200px;
+				margin: 0 auto;
+				cursor: pointer;
+				text-align: center;
+				font-size: 1.15em;
+				color: #345663;
+			}
+			.ico {
+				width: 100px;
+				height: 100px;
+				background: url('%{media}/logo.svg') no-repeat center;
+				margin: 0 auto;
+				background-size: cover;
+				opacity: 1;
+				transition: all .2s ease-in-out;
+				-webkit-transition: all .2s ease-in-out;
+				-moz-transition: all .2s ease-in-out;
+			}
+			&:hover .ico {
+				opacity: 0.8;
+				transition: all .2s ease-in-out;
+				-webkit-transition: all .2s ease-in-out;
+				-moz-transition: all .2s ease-in-out;
+			}
+		}
+	}
+	&.new .message-list {
+		display: none;
+		overflow: auto;
+		height: 100%;
+		width: 100%;
+	}
+	.message-creator {
+		display: none;
+		width: 100%;
+		height: 100%;
+	}
+	&.new .message-creator {
+		display: block;
+	}
+}

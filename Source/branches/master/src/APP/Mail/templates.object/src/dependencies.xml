@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dependencies><use path="\Exception"></use><use path="\AEL\Resources\DOMParser"></use><use path="\AEL\Resources\filesystem\fileManager"></use><use path="\API\Platform\importer"></use><use path="\AEL\Platform\application"></use><use path="\AEL\Mail\appMailer"></use><use path="\API\Profile\account"></use></dependencies>

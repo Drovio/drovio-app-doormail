@@ -1,0 +1,17 @@
+.templateList h2.thd {
+	font-size: 1.1em;
+	color: #345663;
+	margin: 10px 0px;
+}
+
+.templateList .template_resource {
+	float: left;
+	width: 50%;
+	margin: 5px 0px;
+	margin-right: 10px;
+	line-height: 24px;
+}
+
+.templateList .btn_load_template {
+	float: left;
+}

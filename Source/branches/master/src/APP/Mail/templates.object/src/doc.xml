@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manual library="APP" package="Mail" namespace="\">
+  <class name="templates" abstract="">
+    <info>
+      <version>0.1</version>
+      <build>1</build>
+      <datecreated>1446552502</datecreated>
+      <daterevised>1446552502</daterevised>
+      <extends/>
+      <implements/>
+      <throws/>
+      <title>Template manager</title>
+      <description>Manages doorMail templates for the entire team.</description>
+      <deprecated/>
+    </info>
+    <constants>
+      <const type="string" name="TPL_INDEX_FILE">
+        <description>The template index file.</description>
+      </const>
+    </constants>
+    <properties>
+      <scope type="public"/>
+      <scope type="protected"/>
+      <scope type="private"/>
+    </properties>
+    <methods>
+      <scope type="public">
+        <method name="create" returntype="mixed" static="true">
+          <description>Create a new template.</description>
+          <parameters>
+            <parameter name="$templateName" type="string" defaultvalue="">
+              <description>The template name/title.</description>
+            </parameter>
+            <parameter name="$template" type="string" defaultvalue="">
+              <description>The template content.</description>
+            </parameter>
+          </parameters>
+          <returndescription>The template id on success, false on failure.</returndescription>
+          <throws/>
+          <deprecated/>
+        </method>
+        <method name="get" returntype="string" static="true">
+          <description>Get the template html content.</description>
+          <parameters>
+            <parameter name="$templateID" type="string" defaultvalue="">
+              <description>The template id.</description>
+            </parameter>
+          </parameters>
+          <returndescription>The template html content.</returndescription>
+          <throws/>
+          <deprecated/>
+        </method>
+        <method name="update" returntype="boolean" static="true">
+          <description>Update a template.</description>
+          <parameters>
+            <parameter name="$templateID" type="string" defaultvalue="">
+              <description>The template id.</description>
+            </parameter>
+            <parameter name="$templateName" type="string" defaultvalue="">
+              <description>The template new name/title.</description>
+            </parameter>
+            <parameter name="$template" type="string" defaultvalue="">
+              <description>The template html content.</description>
+            </parameter>
+          </parameters>
+          <returndescription>True on success, false on failure.</returndescription>
+          <throws/>
+          <deprecated/>
+        </method>
+        <method name="remove" returntype="boolean" static="true">
+          <description>Remove the given template from the list.</description>
+          <parameters>
+            <parameter name="$templateID" type="string" defaultvalue="">
+              <description>The template id.</description>
+            </parameter>
+          </parameters>
+          <returndescription>True on success, false on failure.</returndescription>
+          <throws/>
+          <deprecated/>
+        </method>
+        <method name="getTemplates" returntype="array" static="true">
+          <description>Get all team templates.</description>
+          <parameters/>
+          <returndescription>An associative array of template id and name.</returndescription>
+          <throws/>
+          <deprecated/>
+        </method>
+      </scope>
+      <scope type="protected"/>
+      <scope type="private">
+        <method name="getTemplateFile" returntype="string" static="true">
+          <description>Get the template html content file path.</description>
+          <parameters>
+            <parameter name="$templateID" type="string" defaultvalue="">
+              <description>The template id.</description>
+            </parameter>
+          </parameters>
+          <returndescription>The full file path.</returndescription>
+          <throws/>
+          <deprecated/>
+        </method>
+      </scope>
+    </methods>
+  </class>
+</manual>

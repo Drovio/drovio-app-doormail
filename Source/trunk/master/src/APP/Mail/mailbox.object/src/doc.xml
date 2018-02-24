@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manual library="APP" package="Mail" namespace="\">
+  <class name="mailbox" abstract="">
+    <info>
+      <version>0.1</version>
+      <build>1</build>
+      <datecreated>1446516061</datecreated>
+      <daterevised>1446516061</daterevised>
+      <extends/>
+      <implements/>
+      <throws/>
+      <title>doorMail mailbox manager</title>
+      <description>Manages the saved drafts and sent mail.
+Manages to send a mail and save the log.</description>
+      <deprecated/>
+    </info>
+    <constants/>
+    <properties>
+      <scope type="public"/>
+      <scope type="protected"/>
+      <scope type="private">
+        <prop type="DOMParser" name="xmlParser">
+          <description>The xml parser object.</description>
+        </prop>
+        <prop type="fileManager" name="fm">
+          <description>The fileManager object.</description>
+        </prop>
+      </scope>
+    </properties>
+    <methods>
+      <scope type="public">
+        <method name="__construct" returntype="void">
+          <description>Create a new mailbox instance.</description>
+          <parameters/>
+          <returndescription/>
+          <throws/>
+          <deprecated/>
+        </method>
+        <method name="create" returntype="boolean">
+          <description>Create a new message as draft.</description>
+          <parameters>
+            <parameter name="$id" type="string" defaultvalue="">
+              <description>The mail id.</description>
+            </parameter>
+            <parameter name="$from" type="array" defaultvalue="">
+              <description>The from address as needed for the mailgun.</description>
+            </parameter>
+            <parameter name="$replyTo" type="string" defaultvalue="">
+              <description>The reply to address.</description>
+            </parameter>
+            <parameter name="$to" type="string" defaultvalue="">
+              <description>The recipients addresses.</description>
+            </parameter>
+            <parameter name="$cc" type="string" defaultvalue="">
+              <description>The cc addresses.</description>
+            </parameter>
+            <parameter name="$bcc" type="string" defaultvalue="">
+              <description>The bcc addresses.</description>
+            </parameter>
+            <parameter name="$subject" type="string" defaultvalue="">
+              <description>The mail subject.</description>
+            </parameter>
+            <parameter name="$message" type="string" defaultvalue="">
+              <description>The html message.</description>
+            </parameter>
+          </parameters>
+          <returndescription>True on success, false on failure.</returndescription>
+          <throws/>
+          <deprecated/>
+        </method>
+        <method name="update" returntype="boolean">
+          <description>Update the mail in the log.</description>
+          <parameters>
+            <parameter name="$id" type="string" defaultvalue="">
+              <description>The mail id.</description>
+            </parameter>
+            <parameter name="$from" type="array" defaultvalue="">
+              <description>The from address as needed for the mailgun.</description>
+            </parameter>
+            <parameter name="$replyTo" type="string" defaultvalue="">
+              <description>The reply to address.</description>
+            </parameter>
+            <parameter name="$to" type="string" defaultvalue="">
+              <description>The recipients addresses.</description>
+            </parameter>
+            <parameter name="$cc" type="string" defaultvalue="">
+              <description>The cc addresses.</description>
+            </parameter>
+            <parameter name="$bcc" type="string" defaultvalue="">
+              <description>The bcc addresses.</description>
+            </parameter>
+            <parameter name="$subject" type="string" defaultvalue="">
+              <description>The mail subject.</description>
+            </parameter>
+            <parameter name="$message" type="string" defaultvalue="">
+              <description>The html message.</description>
+            </parameter>
+            <parameter name="$draft" type="boolean" defaultvalue="">
+              <description>Whether the message is draft or not.
+It is FALSE by default.</description>
+            </parameter>
+          </parameters>
+          <returndescription>True on success, false on failure.</returndescription>
+          <throws/>
+          <deprecated/>
+        </method>
+        <method name="send" returntype="boolean">
+          <description>Send the mail and store it as sent.
+In case of a draft, update it not to be draft anymore.</description>
+          <parameters>
+            <parameter name="$id" type="string" defaultvalue="">
+              <description>The mail id.</description>
+            </parameter>
+            <parameter name="$from" type="array" defaultvalue="">
+              <description>The from address as needed for the mailgun.</description>
+            </parameter>
+            <parameter name="$replyTo" type="string" defaultvalue="">
+              <description>The reply to address.</description>
+            </parameter>
+            <parameter name="$to" type="string" defaultvalue="">
+              <description>The recipients addresses.</description>
+            </parameter>
+            <parameter name="$cc" type="string" defaultvalue="">
+              <description>The cc addresses.</description>
+            </parameter>
+            <parameter name="$bcc" type="string" defaultvalue="">
+              <description>The bcc addresses.</description>
+            </parameter>
+            <parameter name="$subject" type="string" defaultvalue="">
+              <description>The mail subject.</description>
+            </parameter>
+            <parameter name="$message" type="string" defaultvalue="">
+              <description>The html message.</description>
+            </parameter>
+          </parameters>
+          <returndescription>True on success, false on failure.</returndescription>
+          <throws/>
+          <deprecated/>
+        </method>
+        <method name="info" returntype="array">
+          <description>Get information about a saved email.</description>
+          <parameters>
+            <parameter name="$id" type="string" defaultvalue="">
+              <description>The mail id to get info for.</description>
+            </parameter>
+          </parameters>
+          <returndescription>An array of all email informatin.</returndescription>
+          <throws/>
+          <deprecated/>
+        </method>
+        <method name="remove" returntype="boolean">
+          <description>Remove a mail from the logs.</description>
+          <parameters>
+            <parameter name="$id" type="string" defaultvalue="">
+              <description>The mail id to remove.</description>
+            </parameter>
+          </parameters>
+          <returndescription>True on success, false on failure.</returndescription>
+          <throws/>
+          <deprecated/>
+        </method>
+        <method name="getMessages" returntype="array">
+          <description>Get all messages in the logs.</description>
+          <parameters/>
+          <returndescription>An array of all messages and their information.</returndescription>
+          <throws/>
+          <deprecated/>
+        </method>
+      </scope>
+      <scope type="protected"/>
+      <scope type="private"/>
+    </methods>
+  </class>
+</manual>

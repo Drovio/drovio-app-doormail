@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<views><view name="MainView"/><folder name="enterprise"><view name="enterpriseMainView"/><folder name="mailbox"><view name="mailList"/><view name="newMessageForm"/><view name="emptyMessage"/><view name="deleteMail"/></folder><folder name="lists"><view name="listManager"/></folder><folder name="templates"><view name="templateManager"/></folder><folder name="settings"><view name="appSettings"/><view name="signEditor"></view></folder><view name="AboutView"/></folder><folder name="appcenter"><view name="AppCenterMainView"/></folder></views>

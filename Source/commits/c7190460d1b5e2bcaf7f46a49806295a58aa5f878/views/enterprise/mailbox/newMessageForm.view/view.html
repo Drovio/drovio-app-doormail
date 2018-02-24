@@ -1,0 +1,48 @@
+<div class="newMessageForm">
+	<form class="message-creator-form">
+		<div class="frm-controls">
+			<h2 class="hd" data-literal='{"scope":"mailbox.new","name":"hd_composeMessage"}' />
+		</div>
+		<div class="frm-mail">
+			<div class="frow from">
+				<label class="flabel">From:</label>
+			</div>
+			<div class="recipients">
+				<div class="toggle_button" />
+				<div class="frow to">
+					<label class="flabel" for="mfinput_to">To:</label>
+					<input id="mfinput_to" name="to" type="text" class="mfinput" placeholder="Recipient - You can use multiple addresses separated with ';'" required/>
+				</div>
+				<div class="rcc">
+					<div class="frow cc">
+						<label class="flabel" for="mfinput_cc">Cc:</label>
+						<input id="mfinput_cc" name="cc" type="text" class="mfinput" placeholder="Cc - You can use multiple addresses separated with ';'"/>
+					</div>
+					<div class="frow bcc">
+						<label class="flabel" for="mfinput_bcc">Bcc:</label>
+						<input id="mfinput_bcc" name="bcc" type="text" class="mfinput" placeholder="Bcc - You can use multiple addresses separated with ';'"/>
+					</div>
+				</div>
+			</div>
+			<div class="frow reply-to">
+				<label class="flabel" for="mfinput_reply_to">Reply-To:</label>
+				<input id="mfinput_reply_to" name="reply_to" type="email" class="mfinput" placeholder="Reply email address (you must have access to this email address) - you can leave this empty"/>
+			</div>
+			<div class="frow subject">
+				<label class="flabel" for="mfinput_subject">Subject:</label>
+				<input id="mfinput_subject" name="subject" type="text" class="mfinput" placeholder="Message Subject" required/>
+			</div>
+			<div class="farea">
+				<div class="fbtn-container">
+					<div class="btn-load template" data-literal='{"scope":"mailbox.new","name":"lbl_loadFromTemplate"}'>
+						<div class="ico" />
+					</div>
+					<div class="btn-load new" data-literal='{"scope":"mailbox.new","name":"lbl_loadNew"}'>
+						<div class="ico" />
+					</div>
+				</div>
+			</div>
+		</div>
+	</form>
+	<div class="dump-pool" />
+</div>

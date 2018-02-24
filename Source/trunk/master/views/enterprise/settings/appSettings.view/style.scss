@@ -1,0 +1,47 @@
+.applicationSettings {
+	& {
+		height: 100%;
+		position: relative;
+		overflow: auto;
+	}
+	.navigation {
+		position: absolute;
+		top: 0px;
+		width: 95%;
+		margin: 0px 2.5%;
+		background: #FFF;
+		border: 1px solid #CCC;
+		border-top: none;
+		border-radius: 0px 0px 3px 3px;
+		-webkit-border-radius: 0px 0px 3px 3px;
+		-moz-border-radius: 0px 0px 3px 3px;
+		overflow: auto;
+	}
+	.navigation .navitem {
+		float: left;
+		padding: 8px 10px;
+		margin: 0px 3px;
+		border-bottom: 2px solid transparent;
+		box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		line-height: 19px;
+		transition: all .2s ease-in-out;
+		-webkit-transition: all .2s ease-in-out;
+		-moz-transition: all .2s ease-in-out;
+		cursor: pointer;
+	}
+	.navigation .navitem:hover,
+	.navigation .navitem.selected {
+		color: #345663;
+		border-bottom: 2px solid #345663;
+		transition: all .2s ease-in-out;
+		-webkit-transition: all .2s ease-in-out;
+		-moz-transition: all .2s ease-in-out;
+	}
+	.settings-list {
+		width: 95%;
+		margin: 0px 2.5%;
+		margin-top: 50px;
+	}
+}

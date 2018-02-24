@@ -1,0 +1,19 @@
+.aboutApplication {
+	& {
+		padding: 0px 50px;
+	}
+	h1.hd {
+		font-size: 1.3em;
+		margin: 50px 0px;
+		text-align: center;
+		color: #345663;
+	}
+	p, ul, li {
+		color: #5E6570;
+		line-height: 1.2em;
+		font-size: 1.1em;
+	}
+	a {
+		color: #345663;
+	}
+}

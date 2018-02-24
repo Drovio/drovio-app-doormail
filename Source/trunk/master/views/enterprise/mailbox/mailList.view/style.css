@@ -1,0 +1,269 @@
+.mailboxList {
+	width: 100%;
+	height: 100%;
+	padding: 10px;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	position: relative;
+}
+.mailboxList .control-list {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	overflow: auto;
+	padding: 10px;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+.mailboxList .control-list .btn-ctrl {
+	float: left;
+	padding: 5px;
+	margin: 0px;
+	height: 32px;
+	background: transparent;
+	border: 1px solid #345663;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	line-height: 20px;
+	font-size: 1em;
+	color: #345663;
+	transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+	cursor: pointer;
+	outline: none;
+}
+
+.mailboxList .control-list .btn-ctrl .ico {
+	float: left;
+	width: 20px;
+	height: 20px;
+	margin-right: 5px;
+	background: url('%{media}/icons/mailIcons.svg') no-repeat;
+	background-size: 40px;
+	background-position: 0px -20px;
+	transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+}
+
+.mailboxList .control-list .btn-ctrl:hover {
+	background: #345663;
+	color: #FFF;
+	transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+}
+
+.mailboxList .control-list .btn-ctrl:hover .ico {
+	background-position-x: -20px;
+	transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+}
+
+.mailboxList .control-list .btn-ctrl > span {
+	line-height: 20px;
+}
+.mailboxList .control-list .btn-ctrl.create {
+	float: right;
+}
+
+.mailboxList .control-list .btn-ctrl.create .ico {
+	float: right;
+	margin: 0px;
+	margin-left: 5px;
+	background-position: 0px 0px;
+}
+
+.mailboxList .control-list .btn-ctrl.create:hover .ico {
+	background-position-x: -20px;
+	transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+}
+.mailboxList .message-list-container {
+	display: block;
+	overflow: auto;
+	height: 100%;
+	width: 100%;
+	padding-top: 42px;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+
+.mailboxList .message-list-container .message-list {
+	height: 100%;
+	overflow: auto;
+}
+
+.mailboxList .message-list-container .message-list:empty {
+	display: none;
+}
+.mailboxList .message-list-container .listItem {
+	border: 1px solid #E8E8E8;
+	border-bottom: none;
+	background: #FFF;
+	line-height: 24px;
+	flex: 1;
+	-webkit-flex: 1;
+	-moz-flex: 1;
+	position: relative;
+	overflow: auto;
+}
+
+.mailboxList .message-list-container .listItem:last-child {
+	border-bottom: 1px solid #E8E8E8;
+}
+
+.mailboxList .message-list-container .listItem .lhd {
+	padding: 10px;
+	overflow: auto;
+}
+.mailboxList .message-list-container .listItem .delete_mail_form {
+	float: right;
+}
+
+.mailboxList .message-list-container .listItem .delete_mail_form .btn_delete_mail {
+	float: right;
+	width: 20px;
+	height: 20px;
+	background: url('%{media}/icons/devIcons.svg') no-repeat center;
+	background-size: cover;
+	background-position: 0px -40px;
+	outline: none;
+	padding: 0px;
+	margin: 2px 0px;
+	border: none;
+	opacity: 0.7;
+	transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+}
+
+.mailboxList .message-list-container .listItem .delete_mail_form .btn_delete_mail:hover {
+	opacity: 1;
+	transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+}
+
+.mailboxList .message-list-container .listItem .info {
+	font-size: 1em;
+	color: #5E6570;
+}
+
+.mailboxList .message-list-container .listItem .info.draft {
+	float: left;
+	color: #ff5252;
+	margin-right: 10px;
+	cursor: pointer;
+}
+
+.mailboxList .message-list-container .listItem .info.timec {
+	float: right;
+	margin-right: 10px;
+	color: #999;
+}
+
+.mailboxList .message-list-container .listItem .info.subject {
+	font-weight: bold;
+}
+.mailboxList .message-list-container .listItem .mail_body {
+	display: none;
+	border-top: 1px solid #EAEAEA;
+	background: #F8F8F8;
+	overflow: auto;
+}
+
+.mailboxList .message-list-container .listItem .mail_body .mrow {
+	overflow: auto;
+	padding: 3px 5px;
+	border-bottom: 1px solid #EEE;
+}
+
+.mailboxList .message-list-container .listItem .mail_body .mrow .mtitle {
+	float: left;
+	width: 150px;
+	color: #999;
+}
+
+.mailboxList .message-list-container .listItem .mail_body .mrow .mvalue {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.mailboxList .message-list-container .listItem .mail_body .bmessage {
+	overflow: auto;
+	background: #FFF;
+	padding: 5px;
+	margin: 10px;
+	border: 1px solid #DDD;
+}
+
+.mailboxList .message-list-container h2.hd {
+	font-size: 1.3em;
+	text-align: center;
+	margin: 50px 0px;
+	color: #345663;
+}
+.mailboxList .message-list-container .btn-create {
+	width: 200px;
+	margin: 0 auto;
+	cursor: pointer;
+	text-align: center;
+	font-size: 1.15em;
+	color: #345663;
+}
+
+.mailboxList .message-list-container .btn-create .ico {
+	width: 100px;
+	height: 100px;
+	background: url('%{media}/logo.svg') no-repeat center;
+	margin: 0 auto;
+	background-size: cover;
+	opacity: 1;
+	transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+}
+
+.mailboxList .message-list-container .btn-create:hover .ico {
+	opacity: 0.8;
+	transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+}
+
+.mailboxList.new .message-list-container {
+	display: none;
+	overflow: auto;
+	height: 100%;
+	width: 100%;
+}
+
+.mailboxList.new .control-list {
+	display: none;
+	overflow: auto;
+	height: 100%;
+	width: 100%;
+}
+
+.mailboxList .message-creator {
+	display: none;
+	width: 100%;
+	height: 100%;
+}
+
+.mailboxList.new .message-creator {
+	display: block;
+}
